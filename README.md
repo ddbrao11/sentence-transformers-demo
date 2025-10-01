@@ -5,7 +5,7 @@ It demonstrates how to generate **sentence embeddings** and compute **semantic s
 
 ---
 
-## 📌 What are Sentence Transformers?
+## 📌 What are Sentence Transformers? 
 
 Sentence Transformers (SBERT) build on top of **BERT and Transformer models** to generate **semantically meaningful sentence embeddings**.  
 These embeddings can be used for:
