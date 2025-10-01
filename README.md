@@ -30,7 +30,7 @@ sentence-transformers-demo/
 
 ---
 
-## ⚙️ Installation
+##  Installation
 
 Clone the repository and install dependencies:
 
@@ -50,7 +50,7 @@ pip install -r requirements.txt
 
 ##  Quickstart
 
-### ▶️ Run from Command Line
+###  Run from Command Line
 ```bash
 python main.py
 ```
