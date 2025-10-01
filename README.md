@@ -48,3 +48,63 @@ source venv/bin/activate   # On Windows: venv\Scripts\activate
 # Install dependencies
 pip install -r requirements.txt
 
+🚀 Quickstart
+▶️ Run from Command Line
+python main.py
+Expected Output:
+
+Similarity between:
+'I love playing football.'
+and
+'Soccer is my favorite sport.' is 0.72
+
+
+(Note: Score may vary slightly depending on environment & model version)
+
+📓 Run Jupyter Notebook
+
+Start Jupyter Notebook:
+
+jupyter notebook notebook.ipynb
+
+
+You’ll see:
+
+Embedding shapes (vector size: 384 for all-MiniLM-L6-v2)
+
+Pairwise semantic similarity scores across example sentences
+
+📊 Example Similarity Scores
+Sentence A	Sentence B	Similarity
+I love playing football.	Soccer is my favorite sport.	0.72
+Artificial intelligence is transforming the world.	Deep learning and neural networks are part of AI.	0.68
+🏗️ Models Covered
+
+This demo uses all-MiniLM-L6-v2 (lightweight, fast, accurate).
+
+Other popular embedding models you can try:
+
+paraphrase-MiniLM-L6-v2 – optimized for paraphrase mining.
+
+all-mpnet-base-v2 – more accurate but heavier.
+
+OpenAI text-embedding-ada-002 – widely used in industry (API-based).
+
+Cohere / Google Vertex AI Embeddings – production-ready embedding APIs.
+
+📌 Resources
+
+Sentence Transformers Official Docs
+
+Hugging Face Model Hub
+
+Introduction to Semantic Search
+
+🤝 Contributing
+
+Contributions are welcome! Feel free to fork, open issues, or submit PRs.
+
+📜 License
+
+This project is released under the MIT License.
+
