@@ -22,9 +22,13 @@ These embeddings can be used for:
 
 ## 📂 Repository Structure
 sentence-transformers-demo/
+
 │── README.md # Project overview + instructions
+
 │── requirements.txt # Dependencies
+
 │── main.py # Example script (run from CLI)
+
 │── notebook.ipynb # Jupyter Notebook with step-by-step demo
 
 ---
