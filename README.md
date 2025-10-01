@@ -1,20 +1,20 @@
-# 🧠 Sentence Transformers Demo: BERT-based Sentence Embeddings
+#  Sentence Transformers Demo: BERT-based Sentence Embeddings
 
 This repository contains a beginner-friendly implementation of **Sentence Transformers** using the [Hugging Face `sentence-transformers`](https://www.sbert.net/) library.  
 It demonstrates how to generate **sentence embeddings** and compute **semantic similarity** with just a few lines of Python code.
 
 ---
 
-## 📌 What are Sentence Transformers? 
+##  What are Sentence Transformers? 
 
 Sentence Transformers (SBERT) build on top of **BERT and Transformer models** to generate **semantically meaningful sentence embeddings**.  
 These embeddings can be used for:
 
-- ✅ Semantic Search  
-- ✅ Question Answering  
-- ✅ Document Clustering  
-- ✅ Recommendation Systems  
-- ✅ Chatbots (RAG – Retrieval Augmented Generation)  
+-  Semantic Search  
+-  Question Answering  
+-  Document Clustering  
+-  Recommendation Systems  
+-  Chatbots (RAG – Retrieval Augmented Generation)  
 
 ---
 
@@ -48,7 +48,7 @@ pip install -r requirements.txt
 
 ---
 
-## 🚀 Quickstart
+##  Quickstart
 
 ### ▶️ Run from Command Line
 ```bash
@@ -79,7 +79,7 @@ Query: I want to learn about AI vs machine learning
 
 ---
 
-### 📓 Run Jupyter Notebook
+###  Run Jupyter Notebook
 Start Jupyter Notebook:
 ```bash
 jupyter notebook notebook.ipynb
@@ -92,7 +92,7 @@ You’ll see:
 
 ---
 
-## 🔎 Semantic Search Mini-Demo
+##  Semantic Search Mini-Demo
 
 This repo includes a simple semantic search demo that:
 - Encodes a small corpus of sentences into embeddings.
@@ -108,7 +108,7 @@ The script prints pairwise similarity examples and the top-3 search results for 
 
 ---
 
-## 📊 Example Similarity Scores
+##  Example Similarity Scores
 
 | Sentence A                           | Sentence B                               | Similarity |
 |--------------------------------------|------------------------------------------|------------|
@@ -117,7 +117,7 @@ The script prints pairwise similarity examples and the top-3 search results for 
 
 ---
 
-## 🏗️ Models Covered
+##  Models Covered
 
 This demo uses **`all-MiniLM-L6-v2`** (lightweight, fast, accurate).  
 
@@ -129,7 +129,7 @@ Other popular embedding models you can try:
 
 ---
 
-## 📌 Resources
+##  Resources
 
 - [Sentence Transformers Official Docs](https://www.sbert.net/)  
 - [Hugging Face Model Hub](https://huggingface.co/models)  
@@ -137,12 +137,12 @@ Other popular embedding models you can try:
 
 ---
 
-## 🤝 Contributing
+##  Contributing
 
 Contributions are welcome! Feel free to fork, open issues, or submit PRs.
 
 ---
 
-## 📜 License
+##  License
 
 This project is released under the MIT License.
