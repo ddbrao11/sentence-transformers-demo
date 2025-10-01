@@ -21,7 +21,11 @@ These embeddings can be used for:
 ---
 
 ## 📂 Repository Structure
-
+sentence-transformers-demo/
+│── README.md # Project overview + instructions
+│── requirements.txt # Dependencies
+│── main.py # Example script (run from CLI)
+│── notebook.ipynb # Jupyter Notebook with step-by-step demo
 
 ---
 
@@ -30,7 +34,7 @@ These embeddings can be used for:
 Clone the repository and install dependencies:
 
 ```bash
-git clone https://github.com/your-username/sentence-transformers-demo.git
+git clone https://github.com/ddbrao11/sentence-transformers-demo.git
 cd sentence-transformers-demo
 
 # Create a virtual environment (recommended)
